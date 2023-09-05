@@ -1,3 +1,8 @@
+:root {
+    --header-color: wheat;
+    --body-color: #200c38;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +15,11 @@ html {
 
 body {
     /* max-width: 1200px; */
-    background: #200c38;
+    background: var(--body-color);
 }
 
 nav {
-    background: wheat;
+    background: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,4 +77,84 @@ nav ul li a {
 #list-item a {
     display: flex;
     align-items: center;
+}
+
+.container-2 {
+    margin-block: 30px;
+    color: #fff;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+    padding: 10px;
+    height: 100vh;
+}
+
+.col-1 {
+    width: 10vw;
+}
+
+.col-2 {
+    width: 20vw;
+}
+
+.col-3 {
+    width: 30vw;
+}
+
+.col-4 {
+    width: 40vw;
+}
+
+.col-5 {
+    width: 50vw;
+}
+
+.col-6 {
+    width: 60vw;
+}
+
+.col-7 {
+    width: 70vw;
+}
+
+.col-8 {
+    width: 80vw;
+}
+
+.col-9 {
+    width: 90vw;
+}
+
+.col-10 {
+    width: 100vw;
+}
+
+.col-mid {
+    border-inline: 1px solid rgba(189, 184, 184, 0.361);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+.col-start {
+    padding-top: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-block: 25px;
+}
+
+.item p {
+    margin-left: 10px;
+}
+
+.item img {
+    color: #fff;
 }
