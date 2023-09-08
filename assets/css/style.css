@@ -88,7 +88,8 @@ nav ul li a {
     margin-block: 30px;
     color: #fff;
 }
-.row {
+
+.container-2 .row {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,7 +97,7 @@ nav ul li a {
 }
 
 .col {
-    height: 100vh;
+    height: auto;
 }
 
 .col-1 {
@@ -435,18 +436,106 @@ nav ul li a {
     cursor: pointer;
 }
 
-.suggestions .show-more {
+.show-more {
     padding: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
-.suggestions .show-more:hover, .suggestion:hover {
+.show-more:hover, .suggestion:hover {
     background: #2f194a;
     cursor: pointer;
 }
 
-.suggestions .show-more a {
+.show-more a {
     color: #fff;
     text-decoration: none;
+}
+
+.trends-area {
+    margin-top: 20px;
+    background: #290b4d;
+    border-radius: 25px;
+}
+
+
+.trends-area h3 {
+    padding: 20px;
+}
+
+.trend {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend img {
+    width: 25px;
+}
+
+
+.trends-area .trend:hover {
+    background: #2f194a;
+    cursor: pointer;
+}
+
+.trend p {
+    font-size: 15px;
+}
+
+.trend span {
+    font-size: 16px;
+}
+
+.trend p small {
+    display: flex;
+    margin-top: 10px;
+}
+
+.trend .promotion-arrow {
+    width: 15px;
+}
+
+.terms-of-service-area {
+    margin: 20px;
+}
+
+.terms-of-service-area a, .terms-of-service-area span {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.terms-of-service-area a:hover {
+    text-decoration: underline;
+}
+
+.sticky-msg {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+    background: #2f194a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    width: 380px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sticky-msg p {
+    font-size: 19px;
+    
+}
+
+.sticky-msg .imgs img {
+    width: 25px;
+}
+
+.sticky-msg .imgs .img1 {
+    margin-right: 10px;
 }
